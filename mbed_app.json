@@ -19,9 +19,9 @@
     "target_overrides": {
         "*": {
             "target.features_add": ["NANOSTACK", "COMMON_PAL"],
-            "nanostack.configuration": "thread_router",
+            "nanostack.configuration": "thread_end_device",
             "mbed-trace.enable": false,
-            "mbed-mesh-api.heap-size": 20000,
+            "mbed-mesh-api.heap-size": 14000,
             "mbed-mesh-api.thread-device-type": "MESH_DEVICE_TYPE_THREAD_ROUTER",
             "platform.stdio-convert-newlines": true,
             "platform.stdio-baud-rate": 115200
